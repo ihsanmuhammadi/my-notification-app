@@ -29,7 +29,6 @@ export default function LoginPage() {
           await requestForToken();
         }
       }
-      
       router.push("/notifications");
     } catch (err) {
       setError("Login gagal. Silakan cek kembali username dan password Anda.");

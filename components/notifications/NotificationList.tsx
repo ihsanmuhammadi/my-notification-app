@@ -41,7 +41,7 @@ export const NotificationList: React.FC<NotificationListProps> = ({
             variant="primary"
             onClick={handleTestNotification}
           >
-            Uji Notifikasi
+            Tambah Notifikasi
           </Button>
         </div>
       </div>
